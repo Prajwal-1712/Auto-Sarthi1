@@ -1,0 +1,40 @@
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background: #fff700;
+  padding: 40px 0;
+  width: 99vw;
+}
+
+.feature-card {
+  max-width: 350px;
+  text-align: center;
+}
+
+.feature-icon {
+  margin-bottom: 20px;
+  background: #fffefe;
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #efd237;
+}
+
+.feature-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #1d1c1c;
+}

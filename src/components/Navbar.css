@@ -1,0 +1,53 @@
+.navbar {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0;
+background: rgb(230, 227, 227);
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  display: flex;
+  justify-content: space-between;
+  width: 99vw;
+  padding: 16px 40px; /* Add vertical and horizontal padding */
+  box-sizing: border-box; /* Important: includes padding in width calculation */
+}
+
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0; /* Prevent shrinking */
+  gap: 24px; /* Use gap instead of margin-left for better control */
+}
+
+.navbar-links a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+transition: color 0.3s ease, text-decoration 0.3s ease;}
+
+.navbar-links a:hover {
+  color: #f9d805; /* Yellow color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+
+.book-now-btn {
+  background: #FFD600;
+  color: #222;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 0; /* Ensure no right margin */
+}

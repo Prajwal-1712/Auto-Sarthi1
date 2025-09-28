@@ -1,0 +1,153 @@
+/* HomePage.css */
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.homepage-bg {
+  background-color: #8f860b; /* bright yellow */
+  height: 110vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.homepage-overlay {
+  margin-top: 2rem;
+  background-color: rgb(251, 213, 0);
+  padding: 40px 60px;
+  border-radius: 20px;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.subheading {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.search-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  padding: 15px;
+  background: #0e0b0b;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgba(19, 15, 15, 0.12);
+    border: 2px solid #020202; /* Yellow border */
+
+}
+
+
+.location-input {
+  flex: 1;
+  border: 2px solid #ffd000;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-right: 15px;
+  outline: none;
+  color: #333;
+}
+
+.location-input:last-child {
+  margin-right: 0;
+  border-color: #FFC107; /* slightly different yellow for drop location */
+}
+
+.find-btn {
+  flex-shrink: 0;
+  background-color: #f2f1ec;
+  border: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+}
+
+.find-btn:hover {
+  background-color: #f5c503;
+  transform: translateY(-3px); 
+}
+.feature-item {
+  border: 3px solid #12100f; /* distinct color border */
+  border-radius: 20px;       /* rounded corners */
+  padding: 20px;
+  text-align: center;
+  max-width: 160px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 0 10px;            /* some horizontal spacing */
+  transition: transform 0.3s ease;
+   text-align: center;
+  max-width: 150px;
+  background-color: #f5efef;
+  
+}
+
+
+
+.feature-item:hover {
+  transform: translateY(-5px); /* subtle lift on hover */
+  border-color: #ffe100;       /* slightly darker border on hover */
+}
+
+.features-row {
+  
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  
+}
+
+.feature-item {
+  text-align: center;
+  max-width: 150px;
+  background-color: #f5efef;
+}
+
+.feature-icon {
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px;                 /* Add padding for space around emoji */
+  border-radius: 50%;            /* Make it circular */
+  background-color: #ffbf00;     /* Yellow background color */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+
+.feature-item h3 {
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.feature-item p {
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.95rem;
+}
