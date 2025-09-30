@@ -101,3 +101,13 @@
   margin-top: 12px;
   font-size: 14px;
 }
+.fare-total {
+  margin-top: 20px;
+  background: #1c1c1c;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffeb3b;
+}

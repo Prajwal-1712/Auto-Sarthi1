@@ -61,9 +61,6 @@ const Footer = () => (
         <button className="android-btn">
           <span role="img" aria-label="android">📱</span> Download for Android
         </button>
-        <button className="ios-btn">
-          <span role="img" aria-label="apple">🍎</span> Download for iOS
-        </button>
       </div>
     </div>
     <div className="footer-bottom">
