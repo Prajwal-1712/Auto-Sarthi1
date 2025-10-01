@@ -191,3 +191,21 @@ h1 {
     padding: 10px 4px;
   }
 }
+
+.autocomplete-dropdown {
+  border: 1px solid #ddd;
+  background: #fff;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+.autocomplete-dropdown div {
+  padding: 6px;
+  cursor: pointer;
+}
+.autocomplete-dropdown div:hover {
+  background: #f0f0f0;
+}
